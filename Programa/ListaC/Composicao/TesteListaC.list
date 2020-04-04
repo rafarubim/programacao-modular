@@ -1,0 +1,134 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TesteListaC.comp
+
+   Nome do Construto:           TesteListaC
+   Diretório base:              D:\Rafael\Projetos\VS2010\arcaboucoteste_2_02\Módulos Rafael\ListaC
+
+   Arquivo composição:          TesteListaC.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TesteListaC.make
+   Arquivo diretivas LINK:      TesteListaC.build
+   Arquivo listagem:            TesteListaC.list
+
+Módulos do construto: TesteListaC.comp
+
+   TesteListaC.c
+   ListaC.c
+   NoLista.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: Generico.h
+      Total linhas:             588
+      Linhas de código:          54
+      Linhas de comentário:     470
+      Linhas em branco:          64
+   Arquivos de inclusão de que necessita
+      TST_Espc.h
+   Arquivos em que é incluído
+      TesteListaC.c
+
+   Estatísticas do arquivo: LerParm.h
+      Total linhas:             463
+      Linhas de código:          36
+      Linhas de comentário:     362
+      Linhas em branco:          65
+   Arquivos em que é incluído
+      TesteListaC.c
+
+   Estatísticas do arquivo: ListaC.c
+      Total linhas:             236
+      Linhas de código:         192
+      Linhas de comentário:       1
+      Linhas em branco:          44
+   Arquivos de inclusão de que necessita
+      ListaC.h
+      NoLista.h
+
+   Estatísticas do arquivo: ListaC.h
+      Total linhas:             126
+      Linhas de código:          21
+      Linhas de comentário:      92
+      Linhas em branco:          13
+   Arquivos em que é incluído
+      ListaC.c
+      TesteListaC.c
+
+   Estatísticas do arquivo: NoLista.c
+      Total linhas:              90
+      Linhas de código:          78
+      Linhas de comentário:       7
+      Linhas em branco:          12
+   Arquivos de inclusão de que necessita
+      NoLista.h
+
+   Estatísticas do arquivo: NoLista.h
+      Total linhas:              24
+      Linhas de código:          17
+      Linhas de comentário:       0
+      Linhas em branco:           7
+   Arquivos em que é incluído
+      ListaC.c
+      NoLista.c
+
+   Estatísticas do arquivo: TST_Espc.h
+      Total linhas:             320
+      Linhas de código:          23
+      Linhas de comentário:     277
+      Linhas em branco:          20
+   Arquivos em que é incluído
+      Generico.h
+      TesteListaC.c
+
+   Estatísticas do arquivo: TesteListaC.c
+      Total linhas:             392
+      Linhas de código:         215
+      Linhas de comentário:      80
+      Linhas em branco:         111
+   Arquivos de inclusão de que necessita
+      Generico.h
+      LerParm.h
+      ListaC.h
+      TST_Espc.h
+
+Totais por tipo de arquivo
+
+  Tipo: obj      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: .
+         Total linhas do tipo:      1521
+         Linhas de código:           151
+         Linhas de comentário:      1201
+         Linhas em branco:           169
+         Arquivos deste tipo:          5
+
+  Tipo: c        Path: .
+         Total linhas do tipo:       718
+         Linhas de código:           485
+         Linhas de comentário:        88
+         Linhas em branco:           167
+         Arquivos deste tipo:          3
+
+Totais para todo o construto TesteListaC
+
+   Total linhas:              2239
+   Linhas de código:           636
+   Linhas de comentário:      1289
+   Linhas em branco:           336
+   Arquivos processados:         8
+

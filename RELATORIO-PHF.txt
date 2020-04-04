@@ -1,0 +1,15 @@
+	Data		Horas Trabalhadas		Tipo de Tarefa						Breve Descrição
+  04/10/16			 1,5				  Projetar				  Discussão sobre estrutura do programa
+  06/10/16			  2 				  Projetar			      Discussão sobre especificações de requisitos
+  07/10/16			  1				Revisar especificacoes	      Modificação dos conceitos iniciais por inadequação
+  08/10/16			  3 				   Estudar				     Estudo do material online do curso
+  10/10/16			  1					   Estudar				     Estudo de teste automatizado
+  11/10/16			 1,5				   Estudar				     Familiarização com o Arcabouço
+  14/10/16			  3					  Projetar			      Definição da arquitetura do programa
+  16/10/16			  3				   Codificar Modulos			Implementação do Modulo Tabuleiro
+  18/10/16			  1				   Codificar Modulos			Documentação do código do módulo Tabuleiro.h
+  19/10/16			  1				 Redigir Script Testes			Desenvolvimento de Massas de Teste
+  19/10/16			 0,5			 Revisar Script Testes			Revisão do script de testes dos outros modulos
+  19/10/16			  3				   Realizar os testes		   Organização de Testes
+  19/10/16			  10			 Diagnosticar e Corrigir		Correção de defeitos identificados			
+  20/10/16			  8				 Diagnosticar e Corrigir	    Finalização de Testes + Implementação

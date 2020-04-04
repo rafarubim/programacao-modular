@@ -1,0 +1,54 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: testeLista
+!!!      Script de teste:     TesteListaC.script
+
+!!!    0  Linha:     1  // Script:    TesteListaCircular.script 
+!!!    0  Linha:     2  // Autor:     Pedro Henrique Frayha 
+!!!    0  Linha:     3  // Data:      19/oct/2016 
+!!!    0  Linha:     4  // PropÃ³sito: Testar superficialmente o mÃ³dulo lista circular genÃ©rica duplamente encadeada 
+!!!    0  Linha:     5  // 
+    7  == Inicializar Valores
+   22  == Criacao / Destruicao
+   27  ==Insercao	/	Remocao
+>>>    1  Linha:    28  Condicao de retorno errada ao retirar elemento. Deveria ser: 4  É: 2
+>>>    2  Linha:    29  Não é comando recuperar:  =vazia		indiceLista1											OK
+>>>    3  Linha:    30  Comando de teste ignorado:  =move		indiceLista1	1										Erro
+>>>    4  Linha:    31  Comando de teste ignorado:  =move		indiceLista1	-1										Erro
+>>>    5  Linha:    32  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharA	indiceRetornoPos	ElemInexistente
+   34  == Com 1 Elemento
+>>>    6  Linha:    38  Comando não conhecido:  =vazia		indiceLista1											OK
+>>>    7  Linha:    39  Comando de teste ignorado:  =move		indiceLista1	2										OK
+>>>    8  Linha:    40  Comando de teste ignorado:  =move		indiceLista1	-2										OK
+>>>    9  Linha:    41  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharA	indiceRetornoPos	OK
+>>>   10  Linha:    42  Comando de teste ignorado:  =destroi	indiceLista1											OK
+   44  == Com 2 Elementos
+>>>   11  Linha:    45  Erro nos parâmetros do comando:  =cria		indiceLista1											OK
+>>>   12  Linha:    47  Comando de teste ignorado:  =ins		indiceLista1	1	indiceVoidAstcharB					OK
+>>>   13  Linha:    48  Comando de teste ignorado:  =vazia		indiceLista1											OK
+>>>   14  Linha:    49  Comando de teste ignorado:  =move		indiceLista1	1										OK
+>>>   15  Linha:    50  Comando de teste ignorado:  =move		indiceLista1	-1										OK
+>>>   16  Linha:    51  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharA	indiceRetornoPos	OK
+>>>   17  Linha:    52  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharB	indiceRetornoPos	OK
+   54  == Com 3 Elementos
+>>>   18  Linha:    55  Erro nos parâmetros do comando:  =cria		indiceLista1											OK
+>>>   19  Linha:    57  Comando de teste ignorado:  =ins		indiceLista1	1	indiceVoidAstcharB					OK
+>>>   20  Linha:    58  Comando de teste ignorado:  =ins		indiceLista1	2	indiceVoidAstcharC					OK
+>>>   21  Linha:    59  Comando de teste ignorado:  =vazia		indiceLista1											OK
+>>>   22  Linha:    60  Comando de teste ignorado:  =move		indiceLista1	2										OK
+>>>   23  Linha:    61  Comando de teste ignorado:  =move		indiceLista1	-2										OK
+>>>   24  Linha:    62  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharA	indiceRetornoPos	OK
+>>>   25  Linha:    63  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharB	indiceRetornoPos	OK
+>>>   26  Linha:    64  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharC	indiceRetornoPos	OK
+>>>   27  Linha:    65  Comando de teste ignorado:  =busca		indiceLista1	indiceVoidAstcharD	indiceRetornoPos	ElemInexistente
+>>>   28  Linha:    66  Comando de teste ignorado:  =destroi	indiceLista1											OK
+
+!!! Número de linhas lidas:          66
+!!! Número de casos de teste:         6
+!!! Número comandos corretos:        18
+!!! Número de falhas encontradas:    28
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

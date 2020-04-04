@@ -1,0 +1,28 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: testeNoLista
+!!!      Script de teste:     TesteNoLista.script
+
+!!!    0  Linha:     1  // Script:    TesteNoLista.script 
+!!!    0  Linha:     2  // Autor:     Rafael Rubim Cabral 
+!!!    0  Linha:     3  // Data:      19/oct/2016 
+!!!    0  Linha:     4  // PropÃ³sito: Testar o mÃ³dulo NoLista 
+!!!    0  Linha:     5  // 
+    7  == Inicializar Valores
+   29  == Criacao / Destruicao
+   35  == Fit
+   51  == Info
+>>>    1  Linha:    54  Retorno inesperado de caracter por ObterInfoNoh Deveria ser: 'a'  É: 'd'
+<<<    0  Linha:    55  Falha esperada foi recuperada. 
+>>>    1  Linha:    60  Retorno inesperado de caracter por ObterInfoNoh Deveria ser: 'd'  É: 'e'
+<<<    0  Linha:    61  Falha esperada foi recuperada. 
+
+!!! Número de linhas lidas:          66
+!!! Número de casos de teste:         4
+!!! Número comandos corretos:        39
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

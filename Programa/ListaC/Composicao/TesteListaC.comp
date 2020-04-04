@@ -1,0 +1,23 @@
+# Composicao do programa de teste de uma lista genérica duplamente encadeada
+# Este exemplo utiliza o arcabouço completo 
+
+[Diretorios]
+
+Nome        =  TesteListaC
+PathDefault =  .
+err         =  .
+
+[Modulos]
+TesteListaC
+ListaC
+NoLista
+
+[BuildInicio]
+/OUT:TesteListaC.exe
+/INCREMENTAL:NO
+/MACHINE:IX86
+
+[BuildFim]
+ArcaboucoTeste.lib
+
+[Fim]

@@ -1,0 +1,201 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TesteTabuleiro.comp
+
+   Nome do Construto:           TesteTabuleiro
+   Diretório base:              D:\Rafael\Projetos\VS2010\arcaboucoteste_2_02\Módulos Rafael\Tabuleiro
+
+   Arquivo composição:          TesteTabuleiro.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TesteTabuleiro.make
+   Arquivo diretivas LINK:      TesteTabuleiro.build
+   Arquivo listagem:            TesteTabuleiro.list
+
+Módulos do construto: TesteTabuleiro.comp
+
+   TesteTabuleiro.c
+   Tabuleiro.c
+   Lista.c
+   ListaC.c
+   NoLista.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: Definicoes.h
+      Total linhas:              14
+      Linhas de código:          12
+      Linhas de comentário:       0
+      Linhas em branco:           2
+   Arquivos em que é incluído
+      Tabuleiro.c
+      Tabuleiro.h
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: Generico.h
+      Total linhas:             588
+      Linhas de código:          54
+      Linhas de comentário:     470
+      Linhas em branco:          64
+   Arquivos de inclusão de que necessita
+      TST_Espc.h
+   Arquivos em que é incluído
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: LISTA.h
+      Total linhas:             362
+      Linhas de código:          36
+      Linhas de comentário:     274
+      Linhas em branco:          52
+   Arquivos em que é incluído
+      Lista.c
+
+   Estatísticas do arquivo: LerParm.h
+      Total linhas:             463
+      Linhas de código:          36
+      Linhas de comentário:     362
+      Linhas em branco:          65
+   Arquivos em que é incluído
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: Lista.c
+      Total linhas:             592
+      Linhas de código:         316
+      Linhas de comentário:     136
+      Linhas em branco:         158
+   Arquivos de inclusão de que necessita
+      LISTA.h
+
+   Estatísticas do arquivo: Lista.h
+      Total linhas:             362
+      Linhas de código:          36
+      Linhas de comentário:     274
+      Linhas em branco:          52
+   Arquivos em que é incluído
+      Tabuleiro.c
+      Tabuleiro.h
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: ListaC.c
+      Total linhas:             236
+      Linhas de código:         192
+      Linhas de comentário:       1
+      Linhas em branco:          44
+   Arquivos de inclusão de que necessita
+      ListaC.h
+      NoLista.h
+
+   Estatísticas do arquivo: ListaC.h
+      Total linhas:             126
+      Linhas de código:          21
+      Linhas de comentário:      92
+      Linhas em branco:          13
+   Arquivos em que é incluído
+      ListaC.c
+      Tabuleiro.c
+      Tabuleiro.h
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: NoLista.c
+      Total linhas:              90
+      Linhas de código:          78
+      Linhas de comentário:       7
+      Linhas em branco:          12
+   Arquivos de inclusão de que necessita
+      NoLista.h
+
+   Estatísticas do arquivo: NoLista.h
+      Total linhas:              23
+      Linhas de código:          16
+      Linhas de comentário:       0
+      Linhas em branco:           7
+   Arquivos em que é incluído
+      ListaC.c
+      NoLista.c
+
+   Estatísticas do arquivo: TST_Espc.h
+      Total linhas:             320
+      Linhas de código:          23
+      Linhas de comentário:     277
+      Linhas em branco:          20
+   Arquivos em que é incluído
+      Generico.h
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: Tabuleiro.c
+      Total linhas:             329
+      Linhas de código:         242
+      Linhas de comentário:      38
+      Linhas em branco:          68
+   Arquivos de inclusão de que necessita
+      Definicoes.h
+      Lista.h
+      ListaC.h
+      Tabuleiro.h
+
+   Estatísticas do arquivo: Tabuleiro.h
+      Total linhas:             130
+      Linhas de código:          24
+      Linhas de comentário:      78
+      Linhas em branco:          28
+   Arquivos de inclusão de que necessita
+      Definicoes.h
+      Lista.h
+      ListaC.h
+   Arquivos em que é incluído
+      Tabuleiro.c
+      TesteTabuleiro.c
+
+   Estatísticas do arquivo: TesteTabuleiro.c
+      Total linhas:             259
+      Linhas de código:         138
+      Linhas de comentário:      53
+      Linhas em branco:          70
+   Arquivos de inclusão de que necessita
+      Definicoes.h
+      Generico.h
+      LerParm.h
+      Lista.h
+      ListaC.h
+      TST_Espc.h
+      Tabuleiro.h
+
+Totais por tipo de arquivo
+
+  Tipo: obj      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: .
+         Total linhas do tipo:      2388
+         Linhas de código:           258
+         Linhas de comentário:      1827
+         Linhas em branco:           303
+         Arquivos deste tipo:          9
+
+  Tipo: c        Path: .
+         Total linhas do tipo:      1506
+         Linhas de código:           966
+         Linhas de comentário:       235
+         Linhas em branco:           352
+         Arquivos deste tipo:          5
+
+Totais para todo o construto TesteTabuleiro
+
+   Total linhas:              3894
+   Linhas de código:          1224
+   Linhas de comentário:      2062
+   Linhas em branco:           655
+   Arquivos processados:        14
+

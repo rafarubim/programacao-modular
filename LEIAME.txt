@@ -1,0 +1,74 @@
+﻿------ Autores ------
+
+- Rafael Cabral
+- Julio Kessel
+- Pedro Frayha
+
+
+---------  Descrição do Programa  ------------
+
+Programa com capacidade para inicializar as instâncias que compõe um jogo virtual de Ludo, sem rodar o jogo em si ou aplicar a sua dinâmica de qualquer forma.
+
+
+-------- Arquivos Fonte ----------
+
+		
+- Módulos de implementação:					LISTA.C
+								LISTAC.C
+								TABULEIRO.C
+								PEAO.C
+								NOLISTA.C
+								TESTLISTA.C
+								TESTLISTAC.C
+								TESTTAB.C
+								TESTPEAO.C
+								TESTNOLISTA.C
+								
+- Módulos de definição:						LISTA.H
+								LISTAC.H
+								TABULEIRO.H
+								PEAO.H
+								NOLISTA.H
+								LERPARM.H
+								GENERICO.H
+								TST_ESPC.H
+			
+- Arcabouço de teste:						ArcaboucoTeste.lib
+
+
+
+- Arquivos de Script:						TesteLista.script
+								TesteListaC.script
+								TesteTabuleiro.script
+								TestePeao.script
+								TesteNoLista.script
+								
+
+- Arquivos de Log:						TesteLista.log
+								TesteListaC.log
+								TesteTabuleiro.log
+								TestePeao.log
+								TesteNoLista.log
+								
+								
+- Arquivo Executável:						TRAB2-1, TRAB2-2, TRAB2-3, TRAB2-4
+
+
+
+- Arquivos Bat:							Compila, CompilaTudo, CriaLib, GeraMake, GeraTudo, LimpaTudo, TestaTudo, Tudo
+
+
+
+- Arquivos de Relatório:					Relatorios/RELATORIO-RC.txt
+								Relatorios/RELATORIO-JK.txt
+								Relatorios/RELATORIO-PHF.txt
+
+
+- Arquivo Leiame:						LEIAME.TXT
+
+
+
+-------------  Modo de uso  -------------
+
+- Extraia o conteudo do arquivo .zip
+- Executar os arquivos executáveis através do TestaTudo

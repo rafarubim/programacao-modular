@@ -1,0 +1,17 @@
+Data:           Horas Trabalhadas:      Tipo Tarefa:                     Descrição da Tarefa Realizada:
+
+01/10/2016	    30 minutos	        Estudar				 Estudei sobre o modulo lista
+03/10/2016	    2 horas	        Estudar				 Estudei sobre padroes de codigo
+04/10/2016	    1 horas	        Estudar			         Estudei sobre como modularizar bem um programa
+05/10/2016	    2 hora	        Especificar os módulos		 Especificamos quais modulos iriam ser necessarios no programa
+06/10/2016	    3 horas   		Especificar as funções 		 Definiçao de funçoes para fazer parte da interface dos modulos
+08/10/2016	    3 horas		Projetar		 	 Decidimos como sera a arquitetura geral do programa
+09/10/2016	    4 horas   		Codificar Modulo		 Codifar interface de modulos
+12/10/2016	    4 horas	        Codificar Modulo         	 Codificar modulo Peao
+14/10/2016	    6 horas		Revisar código do módulo 	 Revisar código e documentaçao de modulos como tabuleiro e NoLista 
+15/10/2016	    5 hora		Redigir script de teste 	 Escrever script de testes do modulo Peao 
+16/10/2016	    4 hora		Revisar código do módulo	 Revisar erros apontados pelos testes
+17/10/2016          4 horas             Projetar                         Fiz a arquitetura das interfaces dos módulos em UML
+17/10/2016          4 horas             Projetar                         Fiz a modelagem das estruturas de dados dos módulos em UML
+18/10/2016	    5 hora		Revisar script de teste	 	 Revisar e aprimorar script de testes de NoLista e outros modulos
+19/10/2016	    7 horas		Revisar código do módulo 	 Alteraçao de partes no codigo de modulos e atualizaçao da documentaçao		                                 

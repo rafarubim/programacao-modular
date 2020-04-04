@@ -1,0 +1,115 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TesteNoLista.comp
+
+   Nome do Construto:           TesteNoLista
+   Diretório base:              D:\Rafael\Projetos\VS2010\arcaboucoteste_2_02\Módulos Rafael\NoLista
+
+   Arquivo composição:          TesteNoLista.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TesteNoLista.make
+   Arquivo diretivas LINK:      TesteNoLista.build
+   Arquivo listagem:            TesteNoLista.list
+
+Módulos do construto: TesteNoLista.comp
+
+   TesteNoLista.c
+   NoLista.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: Generico.h
+      Total linhas:             588
+      Linhas de código:          54
+      Linhas de comentário:     470
+      Linhas em branco:          64
+   Arquivos de inclusão de que necessita
+      TST_Espc.h
+   Arquivos em que é incluído
+      TesteNoLista.c
+
+   Estatísticas do arquivo: LerParm.h
+      Total linhas:             463
+      Linhas de código:          36
+      Linhas de comentário:     362
+      Linhas em branco:          65
+   Arquivos em que é incluído
+      TesteNoLista.c
+
+   Estatísticas do arquivo: NoLista.c
+      Total linhas:              90
+      Linhas de código:          78
+      Linhas de comentário:       7
+      Linhas em branco:          12
+   Arquivos de inclusão de que necessita
+      NoLista.h
+
+   Estatísticas do arquivo: NoLista.h
+      Total linhas:              24
+      Linhas de código:          17
+      Linhas de comentário:       0
+      Linhas em branco:           7
+   Arquivos em que é incluído
+      NoLista.c
+      TesteNoLista.c
+
+   Estatísticas do arquivo: TST_Espc.h
+      Total linhas:             320
+      Linhas de código:          23
+      Linhas de comentário:     277
+      Linhas em branco:          20
+   Arquivos em que é incluído
+      Generico.h
+      TesteNoLista.c
+
+   Estatísticas do arquivo: TesteNoLista.c
+      Total linhas:             357
+      Linhas de código:         186
+      Linhas de comentário:      77
+      Linhas em branco:         106
+   Arquivos de inclusão de que necessita
+      Generico.h
+      LerParm.h
+      NoLista.h
+      TST_Espc.h
+
+Totais por tipo de arquivo
+
+  Tipo: obj      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: .
+         Total linhas do tipo:      1395
+         Linhas de código:           130
+         Linhas de comentário:      1109
+         Linhas em branco:           156
+         Arquivos deste tipo:          4
+
+  Tipo: c        Path: .
+         Total linhas do tipo:       447
+         Linhas de código:           264
+         Linhas de comentário:        84
+         Linhas em branco:           118
+         Arquivos deste tipo:          2
+
+Totais para todo o construto TesteNoLista
+
+   Total linhas:              1842
+   Linhas de código:           394
+   Linhas de comentário:      1193
+   Linhas em branco:           274
+   Arquivos processados:         6
+
